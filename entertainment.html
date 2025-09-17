@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vui chơi - Hà Nội</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="index.html">Hà Nội</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="history.html">Lịch sử</a>
+        <a href="specialties.html">Đặc sản</a>
+        <a href="entertainment.html">Vui chơi</a>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section data-aos="fade-up">
+      <h1>Địa điểm tham quan & Vui chơi</h1>
+      <p>Hà Nội có nhiều điểm tham quan lịch sử, công viên, khu ẩm thực và phố đi bộ.</p>
+
+      <h2>Phố cổ</h2>
+      <p>Phố cổ Hà Nội với 36 phố phường là nơi hội tụ ẩm thực, đồ thủ công và trải nghiệm truyền thống.</p>
+      <img src="images/pho-co-hien-dai.jpg" alt="Phố cổ Hà Nội" class="content-img" data-aos="zoom-in">
+
+      <h2>Nhà hát Lớn</h2>
+      <p>Nhà hát Lớn là nơi tổ chức các sự kiện văn hoá, hòa nhạc, biểu diễn quy mô lớn — biểu tượng kiến trúc Pháp ở Hà Nội.</p>
+      <img src="images/nha-hat-lon.jpg" alt="Nhà hát lớn" class="content-img" data-aos="zoom-in">
+
+      <h2>Công viên & Không gian xanh</h2>
+      <p>Công viên Thủ Lệ, Yên Sở và các không gian đô thị mới là nơi lý tưởng cho gia đình, lễ hội và vận động ngoài trời.</p>
+      <img src="images/cong-vien-yen-so.jpg" alt="Công viên Yên Sở" class="content-img" data-aos="zoom-in">
+    </section>
+  </main>
+
+  <footer><div class="container"><p>© 2025 Hà Nội</p></div></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init({ duration:700, once:true });</script>
+</body>
+</html>
